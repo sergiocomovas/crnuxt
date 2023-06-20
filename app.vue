@@ -32,6 +32,12 @@
             name="tab3"
             label="Tab 3"
           />
+          <q-route-tab
+            to="/productos"
+            @click="setActiveTab('productos')"
+            name="productos"
+            label="Prodt"
+          />
         </q-tabs>
       </q-toolbar>
     </q-header>
